@@ -10,10 +10,6 @@ sudo rm -rf /usr/share/applications/display-im6.q16.desktop
 # Replacing this with btop
 sudo rm -rf /usr/share/applications/org.gnome.SystemMonitor.desktop
 
-# We added our own meant for Alacritty
-sudo rm -rf /usr/local/share/applications/nvim.desktop
-sudo rm -rf /usr/local/share/applications/vim.desktop
-
 # Create folders
 gsettings set org.gnome.desktop.app-folders folder-children "['Utilities', 'Sundry', 'YaST', 'Updates', 'Xtra']"
 gsettings set org.gnome.desktop.app-folders.folder:/org/gnome/desktop/app-folders/folders/Updates/ name 'Install & Update'
